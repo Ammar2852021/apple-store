@@ -39,7 +39,7 @@ body{font-family: system-ui; background-color: #1d1a30}
         /* img */
 .img{display: grid; grid-template-columns: 3fr 1fr;}
 
-        .cover{background: url(/img/Introducing\ Dynamic\ Island\ on\ iPhone\ 14\ Pro\ _\ Apple.mp4); 
+        .cover{background: url(/apple-store/img/Introducing\ Dynamic\ Island\ on\ iPhone\ 14\ Pro\ _\ Apple.mp4); 
             background-size: cover;
             font-family: "Montserrat", sans-serif;
             background-color: #ecf0f3;
@@ -60,7 +60,7 @@ body{font-family: system-ui; background-color: #1d1a30}
 
 
         .HD{
-            background-image: url(/img/store-card-40-accessories-202303.jpeg); 
+            background-image: url(/apple-store/img/store-card-40-accessories-202303.jpeg); 
      overflow: hidden;
      box-shadow: none;
         }

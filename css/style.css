@@ -145,5 +145,35 @@ box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
 
 
 
+@media screen and (max-width:767px) {
+
+.conact{
+grid-template-columns: 1fr;
+padding: 0px;
+margin: 0px;}
+
+
+
+
+
+            .card-con{display: grid; grid-template-rows: 3fr 1fr;  height: 50vh;
+                margin: 10px;
+                border-radius: 20px;
+                width: 75%;
+                position: relative;
+                overflow: hidden;
+                background-color: #ecf0f3;
+                border-radius: 8px;
+                box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+                
+                }
+
+
+
+
+            
+}  
+
+
 
 

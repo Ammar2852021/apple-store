@@ -39,12 +39,13 @@ body{font-family: system-ui; background-color: #1d1a30}
         /* img */
 .img{display: grid; grid-template-columns: 3fr 1fr;}
 
-        .cover{background: url(/apple-store/img/Introducing\ Dynamic\ Island\ on\ iPhone\ 14\ Pro\ _\ Apple.mp4); 
+        .cover{background: url(/apple-store/img/apple-pacific-centre-store-vancouver-downtown-f.jpg); 
             background-size: cover;
+            overflow: hidden;
+
             font-family: "Montserrat", sans-serif;
             background-color: #ecf0f3;
             border-radius: 8px;
-            box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
             background-position: center center;
             border-radius: 20px; margin: 20px;}
 
@@ -63,6 +64,7 @@ body{font-family: system-ui; background-color: #1d1a30}
             background-image: url(/apple-store/img/store-card-40-accessories-202303.jpeg); 
      overflow: hidden;
      box-shadow: none;
+  
         }
 
         
@@ -73,6 +75,15 @@ body{font-family: system-ui; background-color: #1d1a30}
     color: white;
     height: auto;
 }
+
+.aplle{
+    padding: 30px;
+    width: 100%;
+    color: white;
+    height: auto;
+    height: 60vh;
+background-color: rgba(0, 0, 0, 0.452);}
+
 
 img{width: 100%; display: block;}
 
@@ -130,8 +141,9 @@ box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
     .HD{display: none;}
 
     .inp{width: 50%;}
-    .img{display: grid; grid-template-columns: 1fr;}
-    .cover{background-image: url(/img/SAMSUNG\ AWE\ 2021.jpeg); 
+    .img{display: grid; grid-template-columns: fr;}
+    
+    .cover{
         background-size: cover;
         font-family: "Montserrat", sans-serif;
         background-color: #ecf0f3;
@@ -160,12 +172,12 @@ box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
             background-color: #ecf0f3;
             border-radius: 8px;
             box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
-            padding: 20px;
-            margin: 20px;}
+            padding: 0px;
+            margin: 0px;}
     
 
-            .card-con{display: grid; grid-template-columns: 1fr 1fr;  height: 30vh;
-                margin: 10px;
+            .card-con{display: grid; grid-template-columns: 1fr 1fr;  height: 27vh;
+                margin: none;
                 border-radius: 0px;
                 position: relative;
                 overflow: hidden;

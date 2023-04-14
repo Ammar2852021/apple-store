@@ -176,7 +176,7 @@ box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
             margin: 0px;}
     
 
-            .card-con{display: grid; grid-template-columns: 1fr 1fr;  height: 27vh;
+            .card-con{display: grid; grid-template-columns: 0.5fr 1fr;  height: 27vh;
                 margin: none;
                 border-radius: 0px;
                 position: relative;

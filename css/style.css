@@ -136,30 +136,61 @@ box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
 
 
 
+@media screen and (max-width:767px) and (min-width:520px) {
+
+.HD{display: none;}
+.inp{width: 75%;}
+
+.bx-cart , .bx-bell{
+margin-left:0px;
+padding: 5px;}
+
+.img{ 
+display: block;}
 
 
-::-webkit-scrollbar {
-    width: 0px;
-  }
-
-
-
-
-@media screen and (max-width:767px) {
-
-.conact{
-grid-template-columns: 1fr;
-padding: 0px;
-margin: 0px;}
-
+     
 
 
 
 
-            .card-con{display: grid; grid-template-rows: 3fr 1fr;  height: 50vh;
-                margin: 10px;
-                border-radius: 20px;
-                width: 75%;
+    
+    .cover{
+        background-size: cover;
+        font-family: "Montserrat", sans-serif;
+        background-color: #ecf0f3;
+        border-radius: 8px;
+  
+        background-position: center center;
+        border-radius: 20px; margin: 10px;}
+
+
+        .Container{width: 100%;
+            height: auto;
+             background-color:#ecf0f3;
+           display: grid;
+           overflow: hidden;
+           grid-template-rows:  1.5fr 1fr 19fr  ;
+           }
+
+
+
+
+
+    .conact{
+        display: grid;
+        grid-template-columns: 1fr ;
+            font-family: "Montserrat", sans-serif;
+            background-color: #ecf0f3;
+            border-radius: 8px;
+            box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+            padding: 0px;
+            margin: 0px;}
+    
+
+            .card-con{display: grid; grid-template-columns: 0.5fr 0.5fr;  height: 27vh;
+                margin: none;
+                border-radius: 0px;
                 position: relative;
                 overflow: hidden;
                 background-color: #ecf0f3;
@@ -169,11 +200,78 @@ margin: 0px;}
                 }
 
 
+                .TOP {
+                    background-color: black;
+                    position: fixed;
+                    z-index: 999;
+                    width: 90%;
+                    height: 8vh;
+                    background-color: black;
+                    position: fixed;
+                    z-index: 999;
+                    margin-left: 2.5vh;
+                    border-radius: 30px;
+                    right: 20px;
+                    bottom: 5px;}
+
+}
 
 
-            
-}  
+
+
+@media screen and (max-width:519px)
+  {
+    .HD{display: none;}
+.inp{width: 55%;}
+
+.bx-cart , .bx-bell{
+margin-left:0px;
+padding: 5px;}
+
+.img{ 
+display: block;}
+
+.cover{
+ margin: 10px;
+width: 95vw;}
+ 
+/* ............. */
+section{  margin: auto;}
+.option{margin: 10px; padding: 10px; width: 100%;}
+.HID{display: none;}
+
+
+.conact{
+    display: grid;
+    grid-template-columns: 1fr;
+        padding: 0px;
+        margin: 0px;}
+
+
+        .card-con{display: grid; grid-template-rows: 1.5fr 1fr;  height: auto;}
+
+
+  }
 
 
 
 
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+
+
+
+
+
+  .TOP {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    border-radius: 30px;
+    right: 20px;
+    bottom: 20px;
+    margin-left: 4vh;}

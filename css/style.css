@@ -168,6 +168,8 @@ img {
   color: gold;
 }
 
+.top{display: none;}
+
 @media screen and (max-width: 767px) and (min-width: 520px) {
   .top {
     width: 90%;
@@ -184,6 +186,7 @@ img {
     text-align: center;
     color: white;
     font-size: xx-large;
+    display: block;
   }
   .ic {
     margin-left: 10px;
@@ -264,6 +267,8 @@ img {
     border-radius: 30px;
     right: 20px;
     bottom: 5px;
+    display: block;
+
   }
 }
 
